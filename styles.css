@@ -29,6 +29,7 @@ body {
   scroll-behavior: smooth;
 }
 
+
 header {
   background-color: var(--nav-bg);
   position: sticky;

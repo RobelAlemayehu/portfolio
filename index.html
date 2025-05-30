@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robel Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">Robel</div>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#chatbot">Chatbot</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-toggle" id="theme-toggle">🌓</div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <h1>Robel Alemayehu Gebreyohannes</h1>
+      <p>Web Developer | Designer | Tech Enthusiast</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <img src="images/profile.jpg" alt="Your Avatar" />
+        <p>
+          Hi, I’m Robel Alemayehu, a passionate and curious software engineering
+          student with a growing expertise in full-stack web development. I’m
+          currently sharpening my skills through a hands-on coding bootcamp
+          where I’m building responsive, user-friendly websites and applications
+          using HTML, CSS, JavaScript, and Python with Flask. I enjoy solving
+          real-world problems with code and am especially interested in backend
+          development and AI integration. Whether it's crafting clean,
+          functional interfaces or diving into server-side logic, I'm all about
+          creating meaningful digital experiences. When I’m not coding, I’m
+          exploring new tech, reading, or leveling up through side projects.
+          Let’s build something awesome together!
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Mini Projects</h2>
+
+      <div class="project">
+        <h3 class="accordion">Project One</h3>
+        <div class="panel">
+          <p>A Simple webpage</p>
+          <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+          <a
+            href="https://github.com/RobelAlemayehu/A-complete-webpage"
+            target="_blank"
+            >GitHub</a
+          >
+        </div>
+      </div>
+
+      <div class="project">
+        <h3 class="accordion">Project Two</h3>
+        <div class="panel">
+          <p>Simple Chatbot</p>
+          <p><strong>Tools:</strong> Python</p>
+          <a
+            href="https://github.com/robelalemayehu/my_ai_chatbot"
+            target="_blank"
+            >GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Chatbot Placeholder -->
+    <section id="chatbot">
+      <h2>RoboBot</h2>
+      <div class="chatbot-placeholder">
+        <p>Chatbot will be implemented here in Phase 3.</p>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+      <div id="form-feedback"></div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top">👆</button>
+
+    <!-- Footer -->
+    <footer>
+      <p>Connect with me:</p>
+      <a
+        href="https://linkedin.com/in/robelalemayehugebreyohannes"
+        target="_blank"
+      >
+        <img src="icons/linkedin.svg" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/robelalemayehu" target="_blank">
+        <img src="icons/github.svg" alt="GitHub" />
+      </a>
+      <a href="https://instagram.com/rovel_19" target="_blank">
+        <img src="icons/instagram.svg" alt="Instagram" />
+      </a>
+      <a href="mailto:robelalemalyehu838@gmail.com">
+        <img src="icons/email.svg" alt="Email" />
+      </a>
+      <a href="tel:+251977743334">
+        <img src="icons/phone.svg" alt="Phone" />
+      </a>
+      <p>Robel © 2025. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

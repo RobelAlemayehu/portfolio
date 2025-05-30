@@ -57,6 +57,11 @@ header {
   gap: 1rem;
   list-style: none;
 }
+.bio{
+  font-size: 1.0rem;
+  color: var(--accent-color);
+}
+
 
 .nav-links a {
   text-decoration: none;
@@ -324,4 +329,3 @@ footer a:hover img {
     flex: 1 1 100%;
   }
 }
-

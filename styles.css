@@ -29,7 +29,6 @@ body {
   scroll-behavior: smooth;
 }
 
-
 header {
   background-color: var(--nav-bg);
   position: sticky;
@@ -226,6 +225,7 @@ footer img {
 footer a:hover img {
   transform: scale(1.2);
 }
+
 .contact-info {
   margin-top: 2rem;
   background: var(--card-bg);
@@ -263,7 +263,6 @@ footer a:hover img {
   text-decoration: underline;
 }
 
-
 /* Responsive */
 @media (max-width: 768px) {
   .about-container {
@@ -277,3 +276,52 @@ footer a:hover img {
     gap: 0.5rem;
   }
 }
+
+/* CV Section */
+#cv {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius);
+  color: var(--bg-color);
+}
+
+#cv h2 {
+  margin-bottom: 1.5rem;
+  color: var(--accent-color);
+}
+
+.cv-download-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cv-download-link:hover {
+  background-color: darkred;
+}
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.project {
+  flex: 1 1 calc(50% - 2rem);
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .project {
+    flex: 1 1 100%;
+  }
+}
+
